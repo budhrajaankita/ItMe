@@ -1,22 +1,22 @@
 {
-	"movies": [
+	"Subjects": [
 		{
-			"Title": "Lost In Translation",
-			"Director": "Sofia Coppola",
-			"Rating": "R",
-			"Year": "2003"
+			"Title": "Info 202",
+			"Instructor": "David Bamman",
+			"Days": "Tue, Thurs",
+			"Location": "Weill Hall"
 		},
 		{
-			"Title": "Casino Royale",
-			"Director": "Martin Campbell",
-			"Rating": "PG-13",
-			"Year": "2006"
+			"Title": "Product Management",
+			"Instructor": "Jen Dante",
+			"Days": "Mon",
+			"Location": "South Hall"
 		},
 		{
-			"Title": "The Dark Knight",
-			"Director": "Christopher Nolan",
-			"Rating": "PG-13",
-			"Year": "2008"
+			"Title": "Quantitative research methods",
+			"Instructor": "Andrew Reddie",
+			"Days": "Tue, Thurs",
+			"Location": "Moffitt"
 		}
 	]
 }

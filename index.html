@@ -2,10 +2,10 @@
 <html>  
     <header>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="table_style.css">
-        <title>My Webpage Title</title>
+        <!-- <link rel="stylesheet" href="table_style.css"> -->
+        <title>Welcome!</title>
     </header>
-    <body>  
+    <body background="assets\img\bg-sign.jpg">  
         <!---Navigation--->
         <!--This section of code defines the navigation bar at the top of the page.  The classes used here are defined in the style.css file.-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
@@ -19,12 +19,18 @@
             </div>
         </nav>
         <!--This section defines the middle section of the webpage-->
-        <header class="masthead bg-primary text-white text-center">
+        <header class="masthead bg-primary text-black text-center">
             <div class="container d-flex align-items-center flex-column">
                 
                 <!-- This code is for the student name-->
-                <h1 class="masthead-heading text-uppercase mb-0">Test Student</h1>
+                <h1 class="masthead-heading text-uppercase mb-0">Ankita Budhraja</h1>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-line"></div>
+                </div>
                 <!--This code creates the two lines separating the student name from the subtitle-->
+
+                <h2>I'm <span class="typed"></span></h2>
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-line"></div>
@@ -35,11 +41,68 @@
         </header>
         <section class="text-center">
 
-            <div class="col-md-6 col-lg-4 mb-5">
+            <!-- <div class="col-md-6 col-lg-4 mb-5"> -->
+                
                 <!-- put your bio paragraph here; remember to use the correct html tags -->
                 
             </div>
         </section>
     </body>
+
+</html>
+
+<!-- JS Files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/js/typed.min.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script type="text/javascript">
+    $(function(){
+  $(".typed").typed({
+    strings: ["a Data Scientist.", "a Product Manager.", "a Quality Analyst.", "a Dancer.","a Volunteer.","CONFUSED."],
+    // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+    stringsElement: null,
+    // typing speed
+    typeSpeed: 30,
+    // time before typing starts
+    startDelay: 1200,
+    // backspacing speed
+    backSpeed: 20,
+    // time before backspacing
+    backDelay: 500,
+    // loop
+    loop: true,
+    // false = infinite
+    loopCount: 5,
+    // show cursor
+    showCursor: false,
+    // character for cursor
+    cursorChar: "|",
+    // attribute to type (null == text)
+    attr: null,
+    // either html or text
+    contentType: 'html',
+    // call when done callback function
+    callback: function() {},
+    // starting callback function before each string
+    preStringTyped: function() {},
+    //callback for every typed string
+    onStringTyped: function() {},
+    // callback for reset
+    resetCallback: function() {}
+  });
+});
+
+  </script>
+
+</body>
 
 </html>
