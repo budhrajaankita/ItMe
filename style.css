@@ -11426,6 +11426,11 @@ html {
   font-family: Lucida Handwriting;
   line-height: 2.75rem;
 }
+
+.h1 {
+  font-family: Lucida Handwriting;
+}
+
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
